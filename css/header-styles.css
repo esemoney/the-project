@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+header {
+    /* fixed keyword is fine too */
+    /* position: sticky; */
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    /* z-index: 100; */
+}
+
+header a {
+    transition-property: font-size;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    /* transition-timing-function: cubic-bezier(.23, 1, .32, 1); */
+}
+
+header a:hover {
+    font-size: 18px;
+}
+
+.always-white,
+.two {
+    color: white;
+}
+
+.always-white:hover,
+.two:hover {
+    color: rgb(226, 222, 222);
+}
+
+.one {
+    padding-right: 20px;
+    color: rgb(99, 95, 95);
+    font-size: 17px;
+}

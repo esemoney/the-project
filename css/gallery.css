@@ -1,0 +1,125 @@
+.bottom {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 73.43px;
+    font-weight: bold;
+}
+
+.bottom a {
+    color: rgb(65, 63, 63);
+    letter-spacing: 5px;
+}
+
+
+/* trying out hovering the links from the bottom selector below */
+
+.bottom a {
+    transition-property: color, font-size;
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    /* bottom: 0; */
+    /* transition: bottom 0.2s ease; */
+}
+
+.bottom a:hover {
+    color: white;
+    font-size: 60px;
+}
+
+.gallery {
+    position: relative;
+    margin: auto;
+    top: 100px;
+    transition-property: background;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(.23, 1, .32, 1);
+    /* transition-timing-function: ease; */
+}
+
+.gallery.angel:hover {
+    background: linear-gradient( rgba(46, 46, 45, 0.5), rgba(107, 107, 104, 0.5)), url(../images/angel/angel1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* background-attachment: fixed; */
+}
+
+.gallery.fk:hover {
+    background: linear-gradient( rgba(141, 141, 121, 0.5), rgba(107, 107, 104, 0.5)), url("../images/fk/fk3.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* background-attachment: fixed; */
+}
+
+.gallery.derin:hover {
+    background: linear-gradient( rgba(46, 46, 45, 0.5), rgba(107, 107, 104, 0.5)), url("../images/derin/derin2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* background-attachment: fixed; */
+}
+
+.gallery.lori:hover {
+    background-image: linear-gradient( rgba(46, 46, 45, 0.5), rgba(107, 107, 104, 0.5)), url(../images/lori/IMG_20210529_171454.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* background-attachment: fixed; */
+}
+
+.gallery.robyn:hover {
+    background: linear-gradient( rgba(46, 46, 45, 0.5), rgba(107, 107, 104, 0.5)), url(../images/robyn/robyn4.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* background-attachment: fixed; */
+}
+
+.gallery.lydia:hover {
+    background: linear-gradient( rgba(46, 46, 45, 0.5), rgba(107, 107, 104, 0.5)), url(../images/lydia/lydia3.png);
+    height: 300px;
+    width: 300px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery.portraits:hover {
+    background-image: linear-gradient( rgba(46, 46, 45, 0.5), rgba(107, 107, 104, 0.5)), url(../images/portraits/portrait1.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.gallery.iswis:hover {
+    background-image: linear-gradient( rgba(68, 68, 67, 0.5), rgba(107, 107, 104, 0.5)), url(../images/iswis/iswis1.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.gallery.birthdays:hover {
+    background-image: url(../images/birthday/bday1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+header {
+    /* fixed keyword is fine too */
+    /* position: sticky; */
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    display: flex;
+}
+
+header a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    transition-property: font-size;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    /* transition-timing-function: cubic-bezier(.23, 1, .32, 1); */
+}
+
+header a:hover {
+    font-size: 20px;
+}
+
+.one {
+    padding-right: 20px;
+}
+
+.navigate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 180px; */
+    color: rgb(165, 161, 161);
+    font-size: 20px;
+}
+
+.navigate h6 {
+    margin: 0px;
+}
+
+.navigate a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(165, 161, 161);
+    margin: 0px;
+    transition: font-size;
+    transition-timing-function: ease-in;
+}
+
+.navigate a:hover {
+    font-size: 22px;
+}

@@ -1,0 +1,27 @@
+    /* for small */
+    
+    @media screen and (max-width: 576px) {
+        header {
+            padding-bottom: 0px;
+            position: relative;
+        }
+        header a.one,
+        a.two {
+            font-size: 10px;
+        }
+        a.always-white {
+            font-size: 15px;
+        }
+        .gallery a {
+            font-size: 30px;
+        }
+        .bottom {
+            padding-top: 0px;
+        }
+        section.top {
+            font-size: larger;
+        }
+        /* .navigate a {
+            font-size: 30px;
+        } */
+    }

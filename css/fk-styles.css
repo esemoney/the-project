@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Freight Big Pro;
+    src: url(../font/FreightBigProLight-Regular/FreightBigProLight-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Freight Big Pro, serif;
+    font-weight: bold;
+    background-color: white;
+    background-image: url(../images/backgrounds/fkbg.png);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+}
+
+.left,
+.right {
+    height: 150px;
+    width: 500px;
+}
+
+.center {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Freight Big Pro;
+    src: url(../font/FreightBigProLight-Regular/FreightBigProLight-Regular.ttf);
+}
+
+body {
+    font-family: Freight Big Pro;
+    font-weight: bolder;
+}
+
+.top {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    /* background-color: #fff; */
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+}
+
+header {
+    /* fixed keyword is fine too */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.one {
+    padding-right: 10px;
+    color: #ffffff33;
+}
+
+.two {
+    color: white;
+}
+
+.always-white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 73.43px;
+}
+
+
+/*
+.bottom a {
+    font-size: 73.43px;
+    color: #ffffff33;
+} */
+
+.hover-bg {
+    color: #ffffff33;
+    padding: 0px 11.01px;
+}
